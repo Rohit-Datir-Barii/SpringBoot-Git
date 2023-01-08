@@ -78,5 +78,6 @@ public class ActorController {
 		log.info("Actor Partial Updating method Execution is start");
 		String body = actorService.partialUpdateActor(id, category);
 		return new ResponseEntity<String>(body, HttpStatus.OK);
+		log.info("Actor Partial Updating method Execution is End");
 	}
 }
