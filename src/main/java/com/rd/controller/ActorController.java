@@ -66,9 +66,11 @@ public class ActorController {
 	
 	@DeleteMapping("/delete/{id}")
 	public ResponseEntity<String> deleteActor(@PathVariable Integer id)throws ActorNotFoundException{
-		log.info("Actor Deleting method Execution is start");
+		log.info("Actor Deleting method Execution is start ");
 		String body = actorService.deleteActor(id);
 		return new ResponseEntity<String>(body, HttpStatus.OK);
+	     log.info("Actor Deleting method Execution is End ");
+
 	}
 	
 	@PatchMapping("/partial/{id}/{category}")
