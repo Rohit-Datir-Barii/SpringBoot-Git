@@ -68,15 +68,15 @@ public class ActorController {
 	public ResponseEntity<String> deleteActor(@PathVariable Integer id)throws ActorNotFoundException{
 		log.info("Actor Deleting method Execution is start ");
 		String body = actorService.deleteActor(id);
+          log.info("Actor Deleting method Execution is End ");
 		return new ResponseEntity<String>(body, HttpStatus.OK);
-	     log.info("Actor Deleting method Execution is End ");
-
 	}
 	
 	@PatchMapping("/partial/{id}/{category}")
 	public ResponseEntity<String> partialUpdateActorInfo(@PathVariable Integer id, @PathVariable String category)throws ActorNotFoundException{
 		log.info("Actor Partial Updating method Execution is start");
 		String body = actorService.partialUpdateActor(id, category);
+           log.info("Actor Partial Updating method Execution is End");
 		return new ResponseEntity<String>(body, HttpStatus.OK);
 	}
 }
