@@ -1,0 +1,24 @@
+2022-11-27 11:25:37.432  INFO 15984 --- [main] st01CrudExceptionSwaggerApplicationTests : Starting SpringBootRest01CrudExceptionSwaggerApplicationTests using Java 11.0.9 on LAPTOP-7EU17256 with PID 15984 (started by HP in D:\Spring615_Microservices\SpringBootRest_01_CRUD_Exception_Swagger)
+2022-11-27 11:25:37.439  INFO 15984 --- [main] st01CrudExceptionSwaggerApplicationTests : No active profile set, falling back to default profiles: default
+2022-11-27 11:25:38.629  INFO 15984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-27 11:25:38.687  INFO 15984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2022-11-27 11:25:39.601  INFO 15984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-27 11:25:39.683  INFO 15984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-11-27 11:25:39.827  INFO 15984 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-27 11:25:40.085  INFO 15984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-27 11:25:40.094  WARN 15984 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-11-27 11:25:40.490  INFO 15984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-27 11:25:40.505  INFO 15984 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2022-11-27 11:25:40.509  WARN 15984 --- [main] org.hibernate.dialect.Oracle9Dialect     : HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2022-11-27 11:25:40.510  WARN 15984 --- [main] org.hibernate.dialect.OracleDialect      : HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2022-11-27 11:25:41.397  INFO 15984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-27 11:25:41.407  INFO 15984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-27 11:25:42.480  WARN 15984 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-27 11:25:42.887  INFO 15984 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-27 11:25:43.766  INFO 15984 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-27 11:25:43.805  INFO 15984 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-27 11:25:43.844  INFO 15984 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-27 11:25:44.073  INFO 15984 --- [main] st01CrudExceptionSwaggerApplicationTests : Started SpringBootRest01CrudExceptionSwaggerApplicationTests in 7.124 seconds (JVM running for 8.42)
+2022-11-27 11:25:44.273  INFO 15984 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-27 11:25:44.277  INFO 15984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-27 11:25:44.602  INFO 15984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
